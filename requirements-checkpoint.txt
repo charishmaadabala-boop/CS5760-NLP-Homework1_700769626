@@ -1,0 +1,18 @@
+spacy
+### Dependencies
+
+This project uses **spaCy**, an open-source Natural Language Processing (NLP) library
+for Python. spaCy provides efficient and accurate tools for tokenization, part-of-speech
+tagging, and other basic NLP tasks.
+
+In this assignment, spaCy is used to perform automatic tokenization and to compare
+tool-based tokenization with naïve and manually corrected tokenization approaches
+(Question 5).
+
+All required dependencies are listed in the `requirements.txt` file. The spaCy
+English language model (`en_core_web_sm`) is required to run the tokenization code.
+
+To install dependencies and the language model:
+
+pip install -r requirements.txt  
+python -m spacy download en_core_web_sm
